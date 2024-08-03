@@ -22,9 +22,9 @@ function App() {
       <Routes>
         <Route path='/*' element={<CustomerRouters/>}></Route>
       </Routes>
-
+      
       <div>
-        <OrderDetails/>
+        {/* <Order/> */}
       </div>
       <Footer/>
     </div>
